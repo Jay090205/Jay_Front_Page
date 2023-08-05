@@ -1,0 +1,172 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+.logo 
+{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.Search{
+  margin-left: 300px;
+  margin-right: 200px;
+  background-color: white;
+  color:rgb(12, 10, 10);
+  font-size: medium;
+  width:400px;
+  height:50px;
+  border: 2px solid black;
+  border-radius: 10px;
+  
+}
+
+
+nav{
+   background-image: linear-gradient(to top, #dac1ed 0%, #f6f3ff 100%);
+    height: 80px;
+    width: 100%;
+}
+
+.logo img{
+    width: 65px;
+    height: 65px;
+    line-height: 70px;
+    padding: 6px 5px;
+    margin-top: 5px;
+   margin-left: 5px;
+   border-radius: 50%;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+    margin-top: -72px
+}
+nav ul li {
+       display: inline-block;
+       line-height: 80px;
+       margin: 5px;
+       font-size: 25px;
+       margin-top: 5px;
+       margin-left: 5px;
+       color:rgb(47, 79, 79);
+}
+nav ul li a{
+    color: black;
+}
+
+.container{
+  background-image: linear-gradient(to top, #cd9cf2 0%, #f6f3ff 100%);
+   height:2000px;
+   width:1520px;
+}
+.intro{
+   display: flex;
+
+}
+.back{
+  height:300px;
+  width:300px;
+}
+.container h1{
+   margin-left: 600px;
+   color:	rgb(25, 25, 112);
+   font-weight: 300;
+  
+   
+}
+.container h2{
+  text-align: center;
+}
+
+.bigphoto{
+   height:400px;
+   width: 500px;
+   margin-top: 150px;
+   margin-left: 500px;
+}
+.menu{
+   display:flex;
+   justify-content: space-around;
+}
+.food1{
+   height: 600px;
+   width:400px;
+   border-radius: 200px;
+   border-color: black;
+   border-style:double;
+   background-color:white;
+   border-style: 10px solid black;
+  
+}
+.menu ul li{
+  font-size: medium;
+  font-weight: 100;
+  font-style: italic;
+}
+.food2{
+   height: 600px;
+   width:400px;
+   border-radius: 200px;
+   border-color: black;
+   border-style:double;
+   border-style: 10px solid black;
+  
+}
+.food3{
+   height: 600px;
+   width:400px;
+   border-radius:200px;
+   border-color: black;
+   border-style: 10px solid black;
+
+}
+.menuintro{
+   margin-left:-50px;
+}
+
+.food1 img{
+   height:200px;
+   width:200px;
+   border-radius:100px;
+   
+}
+.food2 img{
+   height:200px;
+   width:200px;
+   border-radius:100px;
+}
+.food3 img{
+   height:200px;
+   width:200px;
+   border-radius:100px;
+}
+.menu li{
+  list-style:none;
+  font-size: medium;
+}
+.recipe1{
+ font-size: x-large;
+ background-color: rgb(192, 163, 220);
+ color:black;
+ padding:20px 20px;
+ border-radius:10px;
+}
+.recipe2{
+  font-size: x-large;
+  background-color: rgb(192, 163, 220);
+  color:black;
+  padding:20px 20px;
+  border-radius:10px;
+ }
+ .recipe3{
+  font-size: x-large;
+  background-color: rgb(192, 163, 220);
+  color:black;
+  padding:20px 20px;
+  border-radius:10px;
+ }
